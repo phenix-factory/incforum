@@ -1,0 +1,23 @@
+<paquet
+	prefix="incforum"
+	categorie="squelette"
+	version="1.0.0"
+	etat="dev"
+	compatibilite="[3.0.0;3.1.*]"
+	logo="prive/themes/spip/images/incforum-64.png"
+	documentation=""
+>
+	<!--
+		Paquet généré le 2016-08-24 15:22:41
+	-->
+
+	<nom>Inclure pour Forum</nom>
+	<!-- Des inclures sain pour les forums SPIP -->
+
+	<auteur lien='http://www.vertige.org'>Didier</auteur>
+
+	<licence>GNU/GPL</licence>
+
+	<necessite nom="forum" compatibilite="[1.9.0;[" />
+
+</paquet>

@@ -14,9 +14,11 @@
 
   <BOUCLE_doc(DOCUMENTS){id_forum}>
     [(#EXTENSION|match{'^(gif|jpg|png)$'}|?{
-    [(#EMBED_DOCUMENT|image_reduire{300})]
+				[<a href="#URL_DOCUMENT" class="mediabox">
+						(#EMBED_DOCUMENT|image_reduire{300})
+				</a>]
     ,
-    [(#LOGO_DOCUMENT|#URL_DOCUMENT)]
+				[(#LOGO_DOCUMENT|#URL_DOCUMENT)]
     })]
   </BOUCLE_doc>
 
